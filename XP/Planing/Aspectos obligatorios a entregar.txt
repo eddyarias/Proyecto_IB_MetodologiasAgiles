@@ -1,5 +1,3 @@
-Documento de estándares de programación-
-Manual de usuario/configuración del sistema -
-Plan de lanzamiento/liberación (Release plan) -
-Historias de usuario y 
-
+- Historias de usuario
+- Criterios de aceptación
+- Plan de lanzamiento/liberación (Release plan)
