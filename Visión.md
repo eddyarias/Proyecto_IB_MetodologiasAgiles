@@ -1,35 +1,67 @@
-# Proyecto Bimestral Metodologías Agiles
+# Documento de Visión y Alcance
 
-## Tema
+## Proyecto: Instagram en Consola
 
-El proyecto tiene como objetivo desarrollar una aplicación de consola para gestionar tareas y la asignación de roles dentro de un equipo de desarrollo utilizando la metodología de eXtreme Programming (XP). La herramienta facilitará la organización, el seguimiento y la colaboración entre los miembros del equipo, permitiendo una ejecución más eficiente y ordenada de los proyectos bimestrales.
+### 1. Tema
+El proyecto consiste en el desarrollo de una aplicación de consola que permita a los usuarios interactuar con una plataforma similar a Instagram, centrada en la publicación y visualización de contenido visual, como imágenes. La aplicación ofrecerá funcionalidades básicas para el manejo de cuentas y la interacción social.
 
-## Objetivos
+### 2. Objetivos
+- Proveer una plataforma sencilla para compartir y ver contenido visual.
+- Facilitar la interacción entre usuarios mediante publicaciones y seguidores.
+- Implementar funcionalidades básicas para la gestión de cuentas de usuario.
 
-- **Eficiencia en la Gestión de Tareas**: Mejorar la distribución y el seguimiento de las tareas asignadas a cada miembro del equipo.
-- **Colaboración**: Facilitar la comunicación y colaboración entre los diferentes roles dentro del equipo.
-- **Transparencia**: Proveer un sistema que permita a todos los miembros ver el progreso y estado de las tareas.
-- **Facilidad de Uso**: Crear una interfaz de usuario intuitiva y accesible para todos los miembros del equipo.
-- **Automatización de Procesos**: Reducir la carga administrativa mediante la automatización de tareas repetitivas y la generación de informes.
+### 3. Alcance
+El proyecto abarcará las siguientes funcionalidades:
 
-## Alcance
+#### Registro de Usuario
+**Objetivo:** Permitir que nuevos usuarios se registren en la aplicación.
+**Alcance:**
+- El usuario debe proporcionar un nombre único y una contraseña.
+- Confirmación de creación de usuario con un mensaje de éxito.
 
-El proyecto abarcará el desarrollo de las siguientes funcionalidades:
+#### Inicio de Sesión
+**Objetivo:** Facilitar el acceso a la aplicación para usuarios registrados.
+**Alcance:**
+- Mostrar una lista de usuarios registrados.
+- Permitir al usuario seleccionar su nombre para iniciar sesión.
 
-- Registro de usuarios.
-- Inicio de sesión.
-- Asignación de roles a los miembros del equipo.
-- Publicación y seguimiento de tareas.
-- Visualización del perfil y las actividades de otros usuarios.
-- Gestión de seguidores y seguidos dentro de la aplicación.
-- Cierre de sesión.
+#### Publicar Contenido
+**Objetivo:** Permitir a los usuarios registrados publicar imágenes con descripciones.
+**Alcance:**
+- Selección de una imagen de un directorio predefinido.
+- Solicitud de una descripción para la imagen antes de publicarla.
+- Confirmación de la publicación con un mensaje de éxito.
 
-## Requisitos Generales
+#### Seguir a Otros Usuarios
+**Objetivo:** Permitir a los usuarios seguir a otros usuarios.
+**Alcance:**
+- Listar todos los usuarios disponibles para seguir.
+- Permitir seleccionar un usuario para seguir.
+- Confirmar la acción con un mensaje de éxito.
 
-- **Registro de Usuarios**: El sistema debe permitir el registro de nuevos usuarios con un nombre de usuario único y contraseña.
-- **Inicio de Sesión**: Los usuarios deben poder iniciar sesión seleccionando su nombre de una lista de usuarios registrados.
-- **Publicación de Contenido**: Los usuarios deben poder publicar imágenes con descripciones.
-- **Seguimiento de Usuarios**: Los usuarios deben poder seguir a otros usuarios y ver sus publicaciones en un feed.
-- **Visualización de Perfiles**: Los usuarios deben poder ver el perfil propio y de otros usuarios, incluyendo seguidores y publicaciones.
-- **Gestión de Seguidores**: El sistema debe mostrar una lista de seguidores para cada usuario.
-- **Cierre de Sesión**: Debe existir una opción clara para que los usuarios cierren sesión de manera segura.
+#### Ver Perfil
+**Objetivo:** Permitir a los usuarios ver perfiles, incluyendo el suyo propio y los de otros usuarios.
+**Alcance:**
+- Mostrar el número de seguidores y la cantidad de publicaciones del perfil.
+- Listar todas las publicaciones del perfil seleccionado.
+
+#### Ver Seguidores
+**Objetivo:** Permitir a los usuarios ver la lista de sus seguidores.
+**Alcance:**
+- Mostrar una lista de todos los seguidores actuales con su nombre.
+
+#### Salir de la Sesión
+**Objetivo:** Proveer una opción para que los usuarios cierren su sesión de manera segura.
+**Alcance:**
+- Proporcionar una opción clara para salir de la aplicación.
+- Confirmar la salida con un mensaje de despedida.
+
+### 4. Requisitos Generales del Sistema
+- **Interfaz de Usuario:** Consola de comandos.
+- **Seguridad:** Manejo básico de autenticación mediante nombres de usuario y contraseñas.
+- **Almacenamiento:** Uso de archivos locales para almacenar datos de usuarios y publicaciones.
+- **Plataforma:** Desarrollado para ejecutarse en sistemas operativos basados en consola (Windows, Linux, MacOS).
+
+### Referencias
+- Documento de Visión y Alcance proporcionado.
+- Historias de Usuario detalladas para la implementación en consola.
