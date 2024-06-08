@@ -1,4 +1,7 @@
+- Tarjetas de tareas (CRC)
+- Diagrama conceptual
+- Diagrama de UML
+- Prototipos
+- Refactorización
+- Documento de estándares de programación
 
-Tarjetas de tareas (CRC)-
--Diagrama conceptual -
--Diagrama de UML-
