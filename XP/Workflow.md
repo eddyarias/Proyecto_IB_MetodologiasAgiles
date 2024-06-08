@@ -24,23 +24,23 @@
 > **Fecha de Fin:** 09/06/2024  
 
 ### Planning
-| **Actividad**                                | **Estado**    |Realizado por: |**Revisado por:**| 
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
 | Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) | Esteban Bajaña |Eddy Arias - Tracker |
 | Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 | Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 
 ### Designing
-| **Actividad**                                | **Estado**    |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|
-| Definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Diagrama de clases UML                       | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| Definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+| Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
 
 ### Coding
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Configuración de entorno y estándares        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|---------------|-----------------|
+| Configuración de entorno y estándares        | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU1: registrar usuario  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
 | Implementación de HU2: selecionar usuario registrado  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
 | Implementación de HU3: publicar imagenes  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
@@ -51,8 +51,8 @@
 | Pruebas Unitarias                            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
 
 ### Testing
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|---------------|-----------------|
 | Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
 | Criterios de Aceptación                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
 
