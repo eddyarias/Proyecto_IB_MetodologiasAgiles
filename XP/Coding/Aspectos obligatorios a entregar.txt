@@ -1,5 +1,4 @@
-
--Prototipos
--Código colectivo (GitHub)-
--Integración de código-
--Refactorización-
+- Manual de usuario / configuración del sistema
+- Código colectivo (GitHub)
+- Integración de código
+- Pruebas unitarias
