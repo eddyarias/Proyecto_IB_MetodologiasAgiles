@@ -26,35 +26,38 @@
 ### Planning
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) | Esteban Bajaña |Eddy Arias - Tracker |
-| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
-| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
+| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) |Esteban Bajaña |Eddy Arias - Tracker |
+| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
+| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
+|Plan de lanzamiento/liberación (Release plan) |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Erika Anrrango - Coach|-|
 
 ### Designing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
-|----------------------------------------------|---------------|
+|----------------------------------------------|---------------|---------------|-----------------|
 | Definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
 | Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+| Diagrama conceptual                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+|Documento de estándares de programación                 | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | - | -|
 
 ### Coding
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Configuración de entorno y estándares        | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
-| Implementación de HU1: registrar usuario  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU2: selecionar usuario registrado  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU3: publicar imagenes  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU4: seguir a otros usuarios  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU5: consultar perfil de usuarios  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU6: consultar lista de seguidores | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU7: cerrar sesión  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Pruebas Unitarias                            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+|Manual de usuario Configuración de entorno y estándares        | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU1: registrar usuario  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU2: selecionar usuario registrado  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU3: publicar imagenes  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU4: seguir a otros usuarios  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU5: consultar perfil de usuarios  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU6: consultar lista de seguidores |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU7: cerrar sesión  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Pruebas Unitarias                            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Edwin Cantuña y Santiago Bejarano - Programadores | - |
 
 ### Testing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Criterios de Aceptación                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
+| Ejecución de pruebas de Aceptación                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 
 
 ## Iteración 2
