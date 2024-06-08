@@ -9,9 +9,12 @@ El proyecto consiste en el desarrollo de una aplicación de consola que permita 
 - Proveer una plataforma sencilla para compartir y ver contenido visual.
 - Facilitar la interacción entre usuarios mediante publicaciones y seguidores.
 - Implementar funcionalidades básicas para la gestión de cuentas de usuario.
+- La metodología XP se aplicará para asegurar un desarrollo ágil y eficiente. Los principios y prácticas de XP a implementar son:
+
 
 ### 3. Alcance
 El proyecto abarcará las siguientes funcionalidades:
+
 
 #### Registro de Usuario
 **Objetivo:** Permitir que nuevos usuarios se registren en la aplicación.
