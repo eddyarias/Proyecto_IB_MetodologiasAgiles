@@ -24,11 +24,11 @@
 > **Fecha de Fin:** 09/06/2024  
 
 ### Planning
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) |
-| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |Realizado por: |**Revisado por:**| 
+|----------------------------------------------|---------------|---------------|-----------------|
+| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) | Esteban Bajaña |Eddy Arias - Tracker |
+| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
+| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 
 ### Designing
 | **Actividad**                                | **Estado**    |
