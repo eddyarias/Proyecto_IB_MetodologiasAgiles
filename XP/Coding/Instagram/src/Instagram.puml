@@ -39,7 +39,7 @@ class Publicacion {
   -autor: Usuario
   -Rutafoto: String
   -descripcion: String
-  +Publicacion(autor: Usuario, fotos: String, descripcion: String)
+  +Publicacion(Usuario, String, String)
   +getAutor(): Usuario
   +getRutaFoto(): String
   +getDescripcion(): String
@@ -51,4 +51,3 @@ Perfil "1" --> "1..*" Publicacion
 Usuario "1" --> "0..*" Usuario:Seguidores
 
 @enduml
-``
