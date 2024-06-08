@@ -1,0 +1,4 @@
+Documento de estándares de programación-
+Manual de usuario/configuración del sistema -
+Plan de lanzamiento/liberación (Release plan) -
+

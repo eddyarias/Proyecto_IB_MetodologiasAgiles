@@ -1,0 +1,6 @@
+-Diagrama conceptual -
+-Diagrama de UML-
+-Prototipos
+-Código colectivo (GitHub)-
+-Integración de código-
+-Refactorización-
