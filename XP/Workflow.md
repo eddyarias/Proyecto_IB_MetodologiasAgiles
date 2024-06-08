@@ -26,7 +26,8 @@
 ### Planning
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) |Esteban Bajaña |Eddy Arias - Tracker |
+| Documento Visión, el tema, objetivos, alcance y requisitos generales del sistema a desarrollar | ![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Plan de Iteración                            | ![Completado](https://img.shields.io/badge/estado-completado-green) |Esteban Bajaña - Gestor |Eddy Arias - Tracker |
 | Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 | Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente | -|
 |Plan de lanzamiento/liberación (Release plan) |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Erika Anrrango - Coach|-|
