@@ -1,2 +1,4 @@
-Historias de usuario y 
+
 Tarjetas de tareas (CRC)-
+-Diagrama conceptual -
+-Diagrama de UML-
