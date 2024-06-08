@@ -38,7 +38,6 @@
 | Definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
 | Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
-| Diagrama conceptual                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
 
 
 ### Coding
