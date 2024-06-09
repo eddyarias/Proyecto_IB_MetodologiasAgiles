@@ -9,6 +9,14 @@ public class Reaccion {
         tipo = Tipo.LIKE;
     }
 
+    public Tipo getTipo() {
+        return tipo;
+    }
+
+    public Usuario getAutor() {
+        return autor;
+    }
+
     @Override
     public String toString() {
         return "Reacción: " +

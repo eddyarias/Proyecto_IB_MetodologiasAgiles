@@ -21,12 +21,25 @@ public class Comparticion {
     }
 
     /**
+     * Obtiene el autor de la compartición.
+     *
+     * @return el autor de la compartición
+     */
+    public Usuario getAutor() {
+        return autor;
+    }
+
+    /**
      * Obtiene el enlace de la compartición.
      *
      * @return el enlace de la compartición
      */
     public String getLink() {
         return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
     /**
