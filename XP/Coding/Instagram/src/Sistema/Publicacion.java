@@ -1,8 +1,10 @@
+package Sistema;
+
 /**
  * La clase Publicacion representa una publicación en la red social Instagram.
  * Cada publicación tiene un autor, una ruta de foto y una descripción.
  */
-class Publicacion {
+public class Publicacion {
     private Usuario autor;
     private String Rutafoto;
     private String descripcion;

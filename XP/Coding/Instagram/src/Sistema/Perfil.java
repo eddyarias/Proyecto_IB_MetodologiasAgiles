@@ -1,3 +1,5 @@
+package Sistema;
+
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +10,7 @@ import java.util.List;
  * La clase Perfil representa el perfil de un usuario en la aplicación Instagram.
  * Contiene información sobre el usuario, sus publicaciones, seguidores y otras funcionalidades relacionadas.
  */
-class Perfil {
+public class Perfil {
     private Usuario usuario;
     private ArrayList<Publicacion> publicaciones;
     private int numSeguidores;
@@ -114,7 +116,7 @@ class Perfil {
      * @return La representación en cadena del perfil.
      */
     public String toString() {
-        return "Perfil de " + usuario.getNombre() +
+        return "Sistema.Perfil de " + usuario.getNombre() +
                 "\nSeguidores: " + numSeguidores +
                 "\nCantidad de publicaciones: " + publicaciones.size();
     }

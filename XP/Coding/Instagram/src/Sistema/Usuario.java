@@ -1,3 +1,5 @@
+package Sistema;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,7 +13,7 @@ import java.util.Scanner;
  * ver publicaciones, seguir a otros usuarios, ver su propio perfil y ver
  * los seguidores que tienen.
  */
-class Usuario {
+public class Usuario {
     private String nombre;
     private String contraseña;
     private Perfil perfil;
@@ -20,8 +22,8 @@ class Usuario {
     /**
      * Crea un nuevo objeto Usuario con el nombre y contraseña especificados.
      * También crea un perfil asociado al usuario y lo agrega a la lista de usuarios.
-     * 
-     * @param nombre el nombre del usuario
+     *
+     * @param nombre     el nombre del usuario
      * @param contraseña la contraseña del usuario
      */
     public Usuario(String nombre, String contraseña) {
@@ -33,7 +35,7 @@ class Usuario {
 
     /**
      * Obtiene el nombre del usuario.
-     * 
+     *
      * @return el nombre del usuario
      */
     public String getNombre() {
@@ -42,7 +44,7 @@ class Usuario {
 
     /**
      * Obtiene la contraseña del usuario.
-     * 
+     *
      * @return la contraseña del usuario
      */
     public String getContraseña() {
@@ -51,12 +53,13 @@ class Usuario {
 
     /**
      * Obtiene el perfil del usuario.
-     * 
+     *
      * @return el perfil del usuario
      */
     public Perfil getPerfil() {
         return perfil;
     }
+
 
     /**
      * Agrega una nueva publicación al perfil del usuario.
@@ -192,9 +195,14 @@ class Usuario {
      */
     @Override
     public String toString() {
-        return "Usuario{" +
+        return "Sistema.Usuario{" +
                 "nombre='" + nombre + '\'' +
                 ", perfil=" + perfil +
                 '}';
+    }
+
+    public void setPerfil(Perfil perfil2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setPerfil'");
     }
 }

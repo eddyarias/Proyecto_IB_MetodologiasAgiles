@@ -1,3 +1,5 @@
+import Sistema.*;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
@@ -72,7 +74,7 @@ public class Main {
         String contrasena = scanner.nextLine();
         Usuario usuario = new Usuario(nombreUsuario, contrasena);
         listaUsuarios.add(usuario);
-        System.out.println("Usuario creado exitosamente.");
+        System.out.println("Sistema.Usuario creado exitosamente.");
     }
 
     public static void cambiarUsuario(Scanner scanner) {
