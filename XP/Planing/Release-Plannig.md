@@ -1,4 +1,4 @@
-#Release Planning
+# Release Planning
 ---
 |Historia|Iteración|Prioridad|Esfuerzo|Fecha Inicio| Fecha Final|Notas Adicionales|
 |---|---|---|---|---|---|---|
