@@ -9,15 +9,18 @@ class Usuario {
   +getContraseña(): String
   +getPerfil(): Perfil
   +agregarPublicacion(): void
-  +realizarComentario(usuario: Usuario): void
-  +realizarReaccion(usuario: Usuario): void
-  +verComentarios(): void
   +verPublicaciones(): void
-  +verReaccion(): void
-  +realizarComparticion(usuario: Usuario): void
   +seguirUsuario(): void
   +verPerfil(): void
   +verSeguidores(): void
+  + verPosibleUsuarios() : int
+  - obtenerArchivosDirectorio(directorio : String) : File[]
+  + toString() : String
+  +realizarComentario(Usuario): void
+  +realizarReaccion(Usuario): void
+  +realizarComparticion(Usuario): void
+  +verComentarios(): void
+  +verReaccion(): void
 }
 
 class Perfil {
@@ -26,15 +29,15 @@ class Perfil {
   -numSeguidores: int
   -seguidores: ArrayList<Usuario>
   +Perfil(usuario: Usuario)
-  +agregarPublicacion(publicacion: Publicacion): void
+  +agregarPublicacion(Publicacion): void
   +mostrarContenidoPublicaciones(): void
   +incrementarSeguidores(): void
   +getSeguidores(): ArrayList<Usuario>
   +getCantidadPublicaciones(): int
   +getPublicaciones(): ArrayList<Publicacion>
-  +agregarSeguidor(seguidor: Usuario): void
+  +agregarSeguidor(Usuario): void
+  +mostrarSeguidores(List<Usuario>): void
   +toString(): String
-  +mostrarSeguidores(seguidores: List<Usuario>): void
 }
 
 class Publicacion {
@@ -44,7 +47,7 @@ class Publicacion {
   -comentarios: ArrayList<Comentario>
   -reacciones: ArrayList<Reaccion>
   -comparticiones: ArrayList<Comparticion>
-  +Publicacion(autor: Usuario, fotos: String, descripcion: String)
+  +Publicacion(Usuario, String, String)
   +getAutor(): Usuario
   +getRutaFoto(): String
   +getDescripcion(): String
@@ -92,4 +95,3 @@ Usuario "1" --> "0..*" Usuario:Seguidores
 Reaccion ---> Tipo
 
 @enduml
-``
