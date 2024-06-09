@@ -57,11 +57,12 @@
 | Seguimiento de la fase codificación |![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Testing
+### Testing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Ejecución de pruebas de Aceptación           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Seguimiento de la fase pruebas               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Ejecución de pruebas funcionales             | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Ejecución de pruebas de Aceptación           | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Seguimiento de la fase pruebas               | ![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ## Iteración 2
 **Duración:** Segundo Día
@@ -69,31 +70,38 @@
 > **Fecha de Fin:** 10/06/2024  
 
 ### Planning
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Actualización del Plan de Iteración          | ![Completado](https://img.shields.io/badge/estado-completado-green) |
-| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|-                 |               --|
+| Actualización del Plan de Iteración                                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Esteban Bajaña - Gestor |Eddy Arias - Tracker |
+| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+|Plan de lanzamiento/liberación (Release plan) |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Erika Anrrango - Coach |Eddy Arias - Tracker |
+| Seguimiento de la fase planificación |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+
 
 ### Designing
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Diagrama de clases UML                       | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|-                 |               --|
+| Actuación definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| Actualización Diagrama de clases UML                       | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| Actualización/Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| Seguimiento de la fase diseño               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Coding
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Configuración de entorno y estándares        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Implementación de HU#  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Pruebas Unitarias e integración de código.   | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|-                 |               --|
+| Implementación de HU8: Comentar Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU9: Reaccionar a Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Implementación de HU10: Compartir Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Pruebas Unitarias e integración de código.   | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias 
+| Seguimiento de la fase codificación |![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Testing
-| **Actividad**                                | **Estado**    |
-|----------------------------------------------|---------------|
-| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Criterios de Aceptación                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
+| **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
+|----------------------------------------------|---------------|---------------|-----------------|
+| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Ejecución de pruebas de Aceptación           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Seguimiento de la fase pruebas               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 
 
