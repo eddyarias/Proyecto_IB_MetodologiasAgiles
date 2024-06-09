@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 
 /**
  * La clase principal de la aplicación Instagram.
@@ -43,24 +44,29 @@ public class Main {
             System.out.println(YELLOW + "2. Elegir usuario" + RESET);
             System.out.println(WHITE + "3. Salir" + RESET);
             System.out.print("Ingrese una opción: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el búfer
-            switch (opcion) {
-                case 1:
-                    crearUsuario(scanner);
-                    break;
-                case 2:
-                    cambiarUsuario(scanner);
-                    if (usuarioActual != null) {
-                        menuSecundario(scanner);
-                    }
-                    break;
-                case 3:
-                    salir = true;
-                    break;
-                default:
-                    System.out.println(RED + "Opción inválida. Intente nuevamente." + RESET);
-                    break;
+            try {
+                int opcion = scanner.nextInt();
+                scanner.nextLine(); // Limpiar el búfer
+                switch (opcion) {
+                    case 1:
+                        crearUsuario(scanner);
+                        break;
+                    case 2:
+                        cambiarUsuario(scanner);
+                        if (usuarioActual != null) {
+                            menuSecundario(scanner);
+                        }
+                        break;
+                    case 3:
+                        salir = true;
+                        break;
+                    default:
+                        System.out.println(RED + "Opción inválida. Intente nuevamente." + RESET);
+                        break;
+                }
+            } catch (InputMismatchException e) {
+            System.out.println("Entrada no válida. Por favor, introduzca un número.");
+            scanner.nextLine(); // Limpiar el búfer para evitar bucles infinitos
             }
         }
         System.out.println("¡Hasta luego!");
@@ -114,48 +120,54 @@ public class Main {
             System.out.println(PURPLE + "8. Ver comentarios" + RESET);            
             System.out.println(RED + "9. Salir" + RESET); 
             System.out.print("Ingrese una opción: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar el búfer
-            switch (opcion) {
-                case 1:
-                    usuarioActual.agregarPublicacion();
-                    break;
-                case 2:
-                    usuarioActual.verPerfil();
-                    break;
-                case 3:
-                    usuarioActual.verSeguidores();
-                    break;
-                case 4:
-                    usuarioActual.seguirUsuario();
-                    break;
-                case 5:
-                    System.out.println("A qué usuario desea realizar la reacción");
-                    int opcion2 = usuarioActual.verPosibleUsuarios();
-                    Usuario usuarioReaccion = listaUsuarios.get(opcion2 - 1);
-                    usuarioActual.realizarReaccion(usuarioReaccion);
-                    break;
-                case 6:
-                    System.out.println("A qué usuario desea realizar un comentario");
-                    int opcion3 = usuarioActual.verPosibleUsuarios();
-                    Usuario usuarioComentario = listaUsuarios.get(opcion3 - 1);
-                    usuarioActual.realizarComentario(usuarioComentario);
-                    break;
-                case 7:
-                    System.out.println("A qué usuario desea realizar una compartida");
-                    int opcion5 = usuarioActual.verPosibleUsuarios();
-                    Usuario usuarioCompartir = listaUsuarios.get(opcion5 - 1);
-                    usuarioActual.realizarComparticion(usuarioCompartir);
-                    break;
-                case 8:
-                    usuarioActual.verComentarios();
-                    break ;
-                case 9:
-                    salir = true;
-                    break;
-                default:
-                    System.out.println(RED + "Opción inválida. Intente nuevamente." + RESET);
-                    break;
+            try {
+                int opcion = scanner.nextInt();
+                scanner.nextLine(); // Limpiar el búfer
+                switch (opcion) {
+                    case 1:
+                        usuarioActual.agregarPublicacion();
+                        break;
+                    case 2:
+                        usuarioActual.verPerfil();
+                        break;
+                    case 3:
+                        usuarioActual.verSeguidores();
+                        break;
+                    case 4:
+                        usuarioActual.seguirUsuario();
+                        break;
+                    case 5:
+                        System.out.println("A qué usuario desea realizar la reacción");
+                        int opcion2 = usuarioActual.verPosibleUsuarios();
+                        Usuario usuarioReaccion = listaUsuarios.get(opcion2 - 1);
+                        usuarioActual.realizarReaccion(usuarioReaccion);
+                        break;
+                    case 6:
+                        System.out.println("A qué usuario desea realizar un comentario");
+                        int opcion3 = usuarioActual.verPosibleUsuarios();
+                        Usuario usuarioComentario = listaUsuarios.get(opcion3 - 1);
+                        usuarioActual.realizarComentario(usuarioComentario);
+                        break;
+                    case 7:
+                        System.out.println("A qué usuario desea realizar una compartida");
+                        int opcion5 = usuarioActual.verPosibleUsuarios();
+                        Usuario usuarioCompartir = listaUsuarios.get(opcion5 - 1);
+                        usuarioActual.realizarComparticion(usuarioCompartir);
+                        break;
+                    case 8:
+                        usuarioActual.verComentarios();
+                        break ;
+                    case 9:
+                        salir = true;
+                        System.out.println("Sesión cerrada. Hasta luego");
+                        break;
+                    default:
+                        System.out.println(RED + "Opción inválida. Intente nuevamente." + RESET);
+                        break;
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Entrada no válida. Por favor, introduzca un número.");
+                scanner.nextLine(); // Limpiar el búfer para evitar bucles infinitos
             }
         }
     }

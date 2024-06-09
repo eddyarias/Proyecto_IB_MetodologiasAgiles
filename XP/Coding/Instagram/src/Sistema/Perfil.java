@@ -86,19 +86,21 @@ public class Perfil {
     /**
      * Agrega un nuevo seguidor al perfil.
      * @param seguidor El usuario que desea seguir al perfil.
+     * @return true si el usuario ya es seguidor, false si se agregó como nuevo seguidor.
      */
-    public void agregarSeguidor(Usuario seguidor) {
-        for (Usuario seguidores : seguidores) {
-            if (seguidores.equals(seguidor)) {
+    public boolean agregarSeguidor(Usuario seguidor) {
+        for (Usuario s : seguidores) {
+            if (s.equals(seguidor)) {
                 System.out.println("Ya sigues a " + seguidor.getNombre());
-                return;
+                return true; // Retorna true si ya es seguidor
             }
         }
         seguidores.add(seguidor);
         incrementarSeguidores();
         System.out.println("Has comenzado a seguir a " + seguidor.getNombre());
+        return false; // Retorna false si no era seguidor y se agregó
     }
-
+    
     /**
      * Muestra la lista de seguidores del perfil.
      * @param seguidores La lista de seguidores a mostrar.

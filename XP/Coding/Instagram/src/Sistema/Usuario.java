@@ -3,6 +3,7 @@ package Sistema;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -70,6 +71,7 @@ public class Usuario {
         Scanner scanner = new Scanner(System.in);
         // Directorio de imágenes
         File[] archivos = obtenerArchivosDirectorio("Images");
+        
         if (archivos.length == 0) {
             System.out.println("No se encontraron imágenes en el directorio especificado.");
             return;
@@ -78,12 +80,22 @@ public class Usuario {
         for (int i = 0; i < archivos.length; i++) {
             System.out.println((i + 1) + ". " + archivos[i].getPath());
         }
-        System.out.print("Seleccione el número de la imagen que desea publicar: ");
-        int opcion = scanner.nextInt();
-        scanner.nextLine(); // Limpiar el búfer
-        if (opcion < 1 || opcion > archivos.length) {
-            System.out.println("Opción inválida. No se realizó la publicación.");
-            return;
+        int opcion = 0;
+        boolean inputValido = false;
+        while (!inputValido) {
+            System.out.print("Seleccione el número de la imagen que desea publicar: ");
+            try {
+                opcion = scanner.nextInt();
+                scanner.nextLine(); // Limpiar el búfer
+                if (opcion < 1 || opcion > archivos.length) {
+                    System.out.println("Número inválido, por favor intente de nuevo.");
+                } else {
+                    inputValido = true; // Salir del bucle si la entrada es válida
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Por favor ingrese un número válido.");
+                scanner.nextLine(); // Evitar bucle infinito por entrada incorrecta
+            }
         }
         String rutaFoto = archivos[opcion - 1].getPath();
         System.out.print("Ingrese su descripción: ");
@@ -107,15 +119,20 @@ public class Usuario {
      */
     public void seguirUsuario() {
         System.out.println("-----USUARIOS DISPONIBLES PARA SEGUIR-----");
-        int indice = verPosibleUsuarios();
+        int indice = verPosibleUsuarios(); // Asume que esta función muestra y devuelve la elección del usuario.
         Usuario usuarioSeleccionado = listaUsuarios.get(indice - 1);
         if (usuarioSeleccionado == this) {
-            System.out.println("No puedes seguirte a ti mismo");
+            System.out.println("No puedes seguirte a ti mismo.");
             return;
         }
         Perfil perfil = usuarioSeleccionado.getPerfil();
-        perfil.agregarSeguidor(usuarioSeleccionado);
-    }
+        boolean yaEsSeguidor = perfil.agregarSeguidor(this); // Modificado para devolver un booleano
+        if (yaEsSeguidor) {
+            System.out.println("Ya sigues a " + usuarioSeleccionado.getNombre() + ".");
+        } else {
+            System.out.println("Perfecto, has seguido a " + usuarioSeleccionado.getNombre() + ".");
+        }
+    }   
 
     /**
      * Muestra el perfil del usuario seleccionado.
@@ -184,8 +201,9 @@ public class Usuario {
      */
     private File[] obtenerArchivosDirectorio(String directorio) {
         File folder = new File(directorio);
-        return folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".jpeg")
+        File[] files = folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".jpeg")
                 || name.toLowerCase().endsWith(".jpg") || name.toLowerCase().endsWith(".png"));
+        return files != null ? files : new File[0]; // Retorna un arreglo vacío en lugar de null
     }
 
     /**
