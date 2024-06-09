@@ -106,3 +106,10 @@
 
 
 
+### Track de video de artefactos 
+| **Fase**                                | **Estado**    |
+|----------------------------------------------|---------------|
+| Planificación            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Asimbaya - Cliente |
+| Dieseño           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Cliente |
+| Codificación            | ![Completado](https://img.shields.io/badge/estado-completado-green)|
+| Pruebas            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|
