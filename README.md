@@ -1,1 +1,0 @@
-# Proyecto_IB_Metodolog-asAgiles
