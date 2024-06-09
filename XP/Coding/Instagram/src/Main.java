@@ -1,3 +1,5 @@
+import Sistema.*;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
@@ -72,7 +74,7 @@ public class Main {
         String contrasena = scanner.nextLine();
         Usuario usuario = new Usuario(nombreUsuario, contrasena);
         listaUsuarios.add(usuario);
-        System.out.println("Usuario creado exitosamente.");
+        System.out.println("Sistema.Usuario creado exitosamente.");
     }
 
     public static void cambiarUsuario(Scanner scanner) {
@@ -106,7 +108,11 @@ public class Main {
             System.out.println(YELLOW + "2. Ver perfil" + RESET);
             System.out.println(WHITE + "3. Ver seguidores" + RESET);
             System.out.println(PURPLE + "4. Seguir Usuarios" + RESET);
-            System.out.println(RED + "5. Salir" + RESET); 
+            System.out.println(RED + "5. RealizarReaccion" + RESET);
+            System.out.println(YELLOW + "6. Realizar Comentario" + RESET);
+            System.out.println(WHITE + "7. Realizar Comparticion" + RESET);
+            System.out.println(PURPLE + "8. Ver comentarios" + RESET);            
+            System.out.println(RED + "9. Salir" + RESET); 
             System.out.print("Ingrese una opción: ");
             int opcion = scanner.nextInt();
             scanner.nextLine(); // Limpiar el búfer
@@ -124,6 +130,27 @@ public class Main {
                     usuarioActual.seguirUsuario();
                     break;
                 case 5:
+                    System.out.println("A qué usuario desea realizar la reacción");
+                    int opcion2 = usuarioActual.verPosibleUsuarios();
+                    Usuario usuarioReaccion = listaUsuarios.get(opcion2 - 1);
+                    usuarioActual.realizarReaccion(usuarioReaccion);
+                    break;
+                case 6:
+                    System.out.println("A qué usuario desea realizar un comentario");
+                    int opcion3 = usuarioActual.verPosibleUsuarios();
+                    Usuario usuarioComentario = listaUsuarios.get(opcion3 - 1);
+                    usuarioActual.realizarComentario(usuarioComentario);
+                    break;
+                case 7:
+                    System.out.println("A qué usuario desea realizar una compartida");
+                    int opcion5 = usuarioActual.verPosibleUsuarios();
+                    Usuario usuarioCompartir = listaUsuarios.get(opcion5 - 1);
+                    usuarioActual.realizarComparticion(usuarioCompartir);
+                    break;
+                case 8:
+                    usuarioActual.verComentarios();
+                    break ;
+                case 9:
                     salir = true;
                     break;
                 default:
