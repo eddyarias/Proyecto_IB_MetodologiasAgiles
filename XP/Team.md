@@ -67,3 +67,4 @@ La plataforma permite a los usuarios compartir y explorar contenido visual, fome
 - Comentario
 - Reacción
 - Compartición
+
