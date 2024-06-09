@@ -4,10 +4,10 @@
 
 # Definición Completa del Sistema
 
-**Nombre del Sistema:** Plataforma Instagram para Publicar Fotografíasl.
+**Nombre del Sistema:** Plataforma Instagram para Publicar Fotografías.
 
 **Propósito del Sistema:**
-El sistema permite a los usuarios crear perfiles personales para administrar y compartir contenido visual como fotos y videos. Esta plataforma ofrece una experiencia centrada en la visualización y la interacción sencilla con el contenido fotográfico, fomentando la conexión y la comunidad entre usuarios con intereses visuales similares.
+El sistema permite a los usuarios crear perfiles personales para administrar y compartir contenido visual como fotos. Esta plataforma ofrece una experiencia centrada en la visualización y la interacción sencilla con el contenido fotográfico, fomentando la conexión y la comunidad entre usuarios con intereses visuales similares.
 
 ## Funcionalidades Principales:
 
