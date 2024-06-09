@@ -1,4 +1,4 @@
-# Titans Tech
+# Titans Tech - Grupo 1
 ![alt text](Planing/img/logo.png)
 ## Equipo
 ### Cliente
