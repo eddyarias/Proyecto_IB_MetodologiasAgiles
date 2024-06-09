@@ -73,7 +73,7 @@
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|-                 |               --|
 | Actualización del Plan de Iteración                                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Esteban Bajaña - Gestor |Eddy Arias - Tracker |
-| Historias de Usuario                         | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Historias de Usuario                         |  ![Completado](https://img.shields.io/badge/estado-completado-green) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
 | Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
 |Plan de lanzamiento/liberación (Release plan) |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Erika Anrrango - Coach |Eddy Arias - Tracker |
 | Seguimiento de la fase planificación |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
