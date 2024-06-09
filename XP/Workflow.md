@@ -82,14 +82,15 @@
 ### Designing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|-                 |               --|
-| Actuación definición de la metáfora del sistema        | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Actualización Diagrama de clases UML                       | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Actualización/Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  |
-| Seguimiento de la fase diseño               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Actuación definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Actualización Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Actualización/Elaboración de tarjetas CRC                  | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
+| Seguimiento de la fase diseño               | ![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Coding
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|-                 |               --|
+| Actualización manual de usuario|![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU8: Comentar Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU9: Reaccionar a Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU10: Compartir Publicación |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
