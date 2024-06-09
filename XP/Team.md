@@ -1,9 +1,6 @@
 # Titans Tech - Grupo 1
 ![alt text](Planing/img/logo.png)
 ## Equipo
-### Cliente
-- **Kevin Asimbaya**
-
 ### eXtreme-Teamwork
 - **Santiago Bejarano**
 - **Edwin Cantuña**
@@ -11,6 +8,7 @@
 - **Eddy Arias**
 - **Ismael Toala**
 - **Esteban Bajaña**
+- **Kevin Asimbaya**
 
 ## Metáfora general del sistema
 
