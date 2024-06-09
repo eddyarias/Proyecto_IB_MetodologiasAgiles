@@ -1,9 +1,12 @@
 package PruebasUnitarias;
 
-import Sistema.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import Sistema.Perfil;
+import Sistema.Publicacion;
+import Sistema.Usuario;
 
 public class PerfilTest {
     @Test
