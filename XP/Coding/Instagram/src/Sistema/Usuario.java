@@ -201,8 +201,161 @@ public class Usuario {
                 '}';
     }
 
+    /**
+     * Establece el perfil del usuario.
+     *
+     * @param perfil2 el perfil del usuario
+     */
     public void setPerfil(Perfil perfil2) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setPerfil'");
+    }
+
+    /**
+     * Realiza un comentario en una publicación de otro usuario.
+     *
+     * @param usuario el usuario cuya publicación se va a comentar
+     * @throws IOException si ocurre un error de entrada/salida
+     */
+    public void realizarComentario(Usuario usuario) throws IOException {
+        Scanner indeee = new Scanner(System.in);
+        usuario.getPerfil().mostrarContenidoPublicaciones();
+        System.out.print("Seleccione la publicación:");
+        int indicePublicacion = indeee.nextInt();
+        // Verificar si el índice ingresado es válido
+        ArrayList<Publicacion> publicaciones = usuario.getPerfil().getPublicaciones();
+        if (verificarIndicePublicacion(indicePublicacion, publicaciones))
+            return;
+        Publicacion publicacion = publicaciones.get(indicePublicacion - 1);
+        String textoComentario = redactarComentario();
+        enviarComentario(textoComentario, publicacion);
+    }
+
+
+    /**
+     * Permite al usuario redactar un comentario.
+     * 
+     * @return el texto del comentario ingresado por el usuario.
+     */
+    private String redactarComentario() {
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("Ingrese su comentario: ");
+        String textoComentario = scanner2.nextLine();
+        return textoComentario;
+    }
+
+
+    /**
+     * Verifica si el índice de la publicación es válido.
+     * 
+     * @param indicePublicacion el índice de la publicación a verificar
+     * @param publicaciones la lista de publicaciones
+     * @return true si el índice de la publicación no es válido, false de lo contrario
+     */
+    private boolean verificarIndicePublicacion(int indicePublicacion, ArrayList<Publicacion> publicaciones) {
+        if (!(indicePublicacion >= 1 && indicePublicacion <= publicaciones.size())) {
+            System.out.println("¡El número de la publicación ingresado no es válido!");
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Realiza una reacción en una publicación de otro usuario.
+     *
+     * @param usuario el usuario cuya publicación se va a reaccionar
+     * @throws IOException si ocurre un error de entrada/salida
+     */
+    public void realizarReaccion(Usuario usuario) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        usuario.getPerfil().mostrarContenidoPublicaciones();
+        System.out.print("Seleccione la publicación");
+        int indicePublicacion = scanner.nextInt();
+        ArrayList<Publicacion> publicaciones = usuario.getPerfil().getPublicaciones();
+        if (verificarIndicePublicacion(indicePublicacion, publicaciones))
+            return;
+        Publicacion publicacion = publicaciones.get(indicePublicacion - 1);
+        enviarReaccion(this, publicacion);
+    }
+
+    /**
+     * Envía una reacción a una publicación.
+     *
+     * @param autor      el usuario que realiza la reacción
+     * @param publicacion la publicación a la que se realiza la reacción
+     */
+    private void enviarReaccion(Usuario autor, Publicacion publicacion) {
+        Reaccion reaccion = new Reaccion(autor, publicacion);
+        publicacion.agregarReaccion(reaccion);
+    }
+
+    /**
+     * Envía un comentario a una publicación.
+     *
+     * @param texto      el texto del comentario
+     * @param publicacion la publicación a la que se realiza el comentario
+     */
+    public void enviarComentario(String texto, Publicacion publicacion) {
+        Comentario comentario = new Comentario(this, texto);
+        publicacion.agregarComentario(comentario);
+    }
+
+    /**
+     * Muestra los comentarios de una publicación.
+     *
+     * @throws IOException si ocurre un error de entrada/salida
+     */
+    public void verComentarios() throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        this.getPerfil().mostrarContenidoPublicaciones();
+        System.out.print("Seleccione la publicación");
+        int indicePublicacion = scanner.nextInt();
+        // Verificar si el índice ingresado es válido
+        ArrayList<Publicacion> publicaciones = this.getPerfil().getPublicaciones();
+        if (verificarIndicePublicacion(indicePublicacion, publicaciones))
+            return;
+        Publicacion publicacion = publicaciones.get(indicePublicacion - 1);
+        publicacion.mostrarComentarios();
+    }
+
+    /**
+     * Muestra los usuarios que han reaccionado a una publicación.eturn;
+     *
+     * @throws IOException si ocurre un error de entrada/salida
+     */
+    public void verReaccion() throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        this.getPerfil().mostrarContenidoPublicaciones();
+        System.out.print("Seleccione la publicación");
+        int indicePublicacion = scanner.nextInt();
+        // Verificar si el índice ingresado es válido
+        ArrayList<Publicacion> publicaciones = this.getPerfil().getPublicaciones();
+        if (verificarIndicePublicacion(indicePublicacion, publicaciones))
+            return;
+        Publicacion publicacion = publicaciones.get(indicePublicacion - 1);
+        publicacion.mostrarReaccionadores();
+    }
+
+    /**
+     * Realiza una compartición de una publicación de otro usuario.eturn;
+     *
+     * @param usuario1 el usuario cuya publicación se va a compartir
+     * @throws IOException si ocurre un error de entrada/salida
+     */
+    public void realizarComparticion(Usuario usuario1) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        usuario1.getPerfil().mostrarContenidoPublicaciones();
+        System.out.print("Seleccione la publicación");
+        int indicePublicacion = scanner.nextInt();
+        // Verificar si el índice ingresado es válido
+        ArrayList<Publicacion> publicaciones = usuario1.getPerfil().getPublicaciones();
+        if (verificarIndicePublicacion(indicePublicacion, publicaciones))
+            return;
+        Publicacion publicacion = publicaciones.get(indicePublicacion - 1);
+        Comparticion comparticion = new Comparticion(this);
+        perfil.agregarPublicacion(
+                new Publicacion(publicacion.getAutor(), comparticion.getLink(), publicacion.getDescripcion()));
+        publicacion.agregarComparticion(comparticion);
+        System.out.println("FOTO COMPARTIDA EXITOSAMENTE");
+        System.out.println("Link: " + comparticion.getLink());
     }
 }
