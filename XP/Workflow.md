@@ -39,8 +39,8 @@
 |----------------------------------------------|---------------|---------------|-----------------|
 | Definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)   | Edwin Cantuña y Santiago Bejarano - Programadores | -|
 | Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
-| Elaboración de tarjetas CRC                  | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
-| Seguimiento de la fase diseño |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Elaboración de tarjetas CRC                  | ![Completado](https://img.shields.io/badge/estado-completado-green)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+| Seguimiento de la fase diseño |![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Coding
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
