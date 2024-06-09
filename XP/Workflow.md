@@ -37,9 +37,9 @@
 ### Designing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)   | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+| Definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)   | Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
-| Elaboración de tarjetas CRC                  | ![Completado](https://img.shields.io/badge/estado-completado-green)  | Edwin Cantuña y Santiago Bejarano - Programadores | -|
+| Elaboración de tarjetas CRC                  | ![Completado](https://img.shields.io/badge/estado-completado-green)  | Edwin Cantuña y Santiago Bejarano - Programadores |Eddy Arias -Tracker |
 | Seguimiento de la fase diseño |![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Coding
@@ -53,7 +53,7 @@
 | Implementación de HU5: consultar perfil de usuarios  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU6: consultar lista de seguidores |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Implementación de HU7: cerrar sesión  |  ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
-| Pruebas Unitarias                            | ![Completado](https://img.shields.io/badge/estado-completado-green)   |Edwin Cantuña y Santiago Bejarano - Programadores | - |
+| Pruebas Unitarias                            | ![Completado](https://img.shields.io/badge/estado-completado-green)   |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Seguimiento de la fase codificación |![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 ### Testing
