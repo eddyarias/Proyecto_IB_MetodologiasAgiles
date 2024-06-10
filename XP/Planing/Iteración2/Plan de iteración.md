@@ -2,7 +2,7 @@
 # Plan de Iteración
 
 ## Iteración 2
-**Duración:** Tercer Día
+**Duración:** Segundo Día
 > **Fecha de Inicio:** 09/06/2024  
 > **Fecha de Fin:** 10/06/2024  
 
