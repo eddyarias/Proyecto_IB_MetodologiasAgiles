@@ -1,2 +1,0 @@
-- Pruebas funcionales
-- Pruebas de aceptación
