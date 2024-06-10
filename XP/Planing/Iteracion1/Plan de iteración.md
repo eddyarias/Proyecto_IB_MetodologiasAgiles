@@ -6,7 +6,6 @@
 ### Objetivos de la Iteración
 - Implementar las funcionalidades básicas como registrar cuenta, consultar usuarios, seguir usuarios y cierre de sesión.
 - Configurar el entorno de desarrollo y las herramientas necesarias.
-- Establecer los estándares de codificación y las prácticas de pruebas.
 > **Fecha de Inicio:** 08/06/2024  
 > **Fecha de Fin:** 09/06/2024  
 
