@@ -1,3 +1,4 @@
+
 # Plan de Iteración
 
 ## Iteración 2
@@ -8,12 +9,11 @@
 ### Planning
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|-                 |               --|
-| Actualización del Plan de Iteración                                      | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Esteban Bajaña - Gestor |Eddy Arias - Tracker |
+| Actualización del Plan de Iteración                                      | ![Completado](https://img.shields.io/badge/estado-completado-green) |Esteban Bajaña - Gestor |Eddy Arias - Tracker |
 | Actuación definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Historias de Usuario                         |  ![Completado](https://img.shields.io/badge/estado-completado-green) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Pruebas funcionales                          | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-|Plan de lanzamiento/liberación (Release plan) |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Erika Anrrango - Coach |Eddy Arias - Tracker |
-| Seguimiento de la fase planificación |![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Pruebas funcionales                          | ![Completado](https://img.shields.io/badge/estado-completado-green) |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Seguimiento de la fase planificación |![Completado](https://img.shields.io/badge/estado-completado-green) |Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 
 ### Designing
@@ -36,9 +36,9 @@
 ### Testing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Ejecución de pruebas de Aceptación           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Seguimiento de la fase pruebas               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Ejecución de pruebas funcionales             | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Ejecución de pruebas de Aceptación           | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Seguimiento de la fase pruebas               | ![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 
 
@@ -46,7 +46,7 @@
 ### Track de video de artefactos 
 | **Fase**                                | **Estado**    |
 |----------------------------------------------|---------------|
-| Planificación            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Asimbaya - Cliente |
-| Dieseño           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Cliente |
+| Planificación            | ![Completado](https://img.shields.io/badge/estado-completado-green) |
+| Dieseño           | ![Completado](https://img.shields.io/badge/estado-completado-green) |Cliente |
 | Codificación            | ![Completado](https://img.shields.io/badge/estado-completado-green)|
-| Pruebas            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|
+| Pruebas            | ![Completado](https://img.shields.io/badge/estado-completado-green)|

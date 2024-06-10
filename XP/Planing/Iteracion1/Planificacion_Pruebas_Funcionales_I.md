@@ -33,7 +33,7 @@
 | **Descripción**         | Verifica que un usuario registrado puede publicar imágenes con descripciones. |
 | **Precondiciones**      | - El usuario debe estar registrado e iniciar sesión. <br> - Debe haber imágenes disponibles en un directorio predefinido. |
 | **Datos de Entrada**    | - Descripción de la imagen: Mi primera publicación |
-| **Pasos para Ejecutar la Prueba** | 1. Seleccionar una imagen del directorio. <br> 2. Ingresar una descripción para la imagen. <br> 3. Se publica la imagen. |
+| **Pasos para Ejecutar la Prueba** | 1. Seleccionar una imagen del directorio. <br> 2. Ingresar una descripción para la imagen `Ronaldihno` . <br> 3. Se publica la imagen. |
 | **Resultado Esperado**  | - Mensaje de confirmación: `Publicación realizada con éxito` |
 
 ---

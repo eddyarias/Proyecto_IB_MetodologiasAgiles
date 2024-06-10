@@ -6,7 +6,7 @@
 ### Objetivos de la Iteración
 - Implementar las funcionalidades básicas como registrar cuenta, consultar usuarios, seguir usuarios y cierre de sesión.
 - Configurar el entorno de desarrollo y las herramientas necesarias.
-- Establecer los estándares de codificación y las prácticas de pruebas.
+
 > **Fecha de Inicio:** 07/06/2024  
 > **Fecha de Fin:** 09/06/2024  
 
@@ -19,8 +19,6 @@
 | Pruebas funcionales                          | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
 |Plan de lanzamiento/liberación (Release plan) |![Completado](https://img.shields.io/badge/estado-completado-green)|Erika Anrrango - Coach |Eddy Arias - Tracker |
 | Seguimiento de la fase planificación |![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
-
-
 
 ### Designing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
