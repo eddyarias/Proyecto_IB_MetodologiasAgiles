@@ -43,7 +43,7 @@
 ### Track de video de artefactos 
 | **Fase**                                | **Estado**    |
 |----------------------------------------------|---------------|
-| Planificación            | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red) |
+| Planificación            | ![Completado](https://img.shields.io/badge/estado-completado-green) |
 | Dieseño           | ![Completado](https://img.shields.io/badge/estado-completado-green) |Cliente |
 | Codificación            | ![Completado](https://img.shields.io/badge/estado-completado-green)|
 | Pruebas            | ![Completado](https://img.shields.io/badge/estado-completado-green)|
