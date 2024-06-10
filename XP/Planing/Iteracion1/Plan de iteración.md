@@ -1,5 +1,6 @@
 # Plan de Iteración
-**Duración**: 3 Días
+
+**Duración**: 2 Días
 
 ## Iteración 1
 **Duración:** Primer y Segundo Día  
@@ -7,7 +8,7 @@
 - Implementar las funcionalidades básicas como registrar cuenta, consultar usuarios, seguir usuarios y cierre de sesión.
 - Configurar el entorno de desarrollo y las herramientas necesarias.
 
-> **Fecha de Inicio:** 07/06/2024  
+> **Fecha de Inicio:** 08/06/2024  
 > **Fecha de Fin:** 09/06/2024  
 
 ### Planning
