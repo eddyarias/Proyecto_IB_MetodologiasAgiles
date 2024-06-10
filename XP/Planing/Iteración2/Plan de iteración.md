@@ -33,9 +33,9 @@
 ### Testing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
-| Ejecución de pruebas funcionales             | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Ejecución de pruebas de Aceptación           | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
-| Seguimiento de la fase pruebas               | ![Pendiente](https://img.shields.io/badge/estado-pendiente-red)|Eddy Arias - Tracker |Eddy Arias - Tracker |
+| Ejecución de pruebas funcionales             | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Ejecución de pruebas de Aceptación           | ![Completado](https://img.shields.io/badge/estado-completado-green)|Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
+| Seguimiento de la fase pruebas               | ![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
 
 
