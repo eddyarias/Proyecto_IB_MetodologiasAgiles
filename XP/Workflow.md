@@ -37,4 +37,4 @@
 | *Planning*   | Plan de Iteración, Historias de Usuario, Release plannning, Seguimiento de la fase planificación  |
 | *Designing*  | Diagrama UML, Tarjetas CRC, Refactorización, Metáfora, Prototipo                                                                |
 | *Coding*     | Pruebas unitarias, Manual de usuario, Programación en pares                            |
-| *Testing*    | Pruebas funcionales, Pruebas de aceptación
+| *Testing*    | Pruebas funcionales, Pruebas de aceptación, Fortify
