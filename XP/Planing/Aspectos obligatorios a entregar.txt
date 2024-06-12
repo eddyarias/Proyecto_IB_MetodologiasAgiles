@@ -1,4 +1,0 @@
-- Historias de usuario
-- Criterios de aceptación
-- Plan de lanzamiento/liberación (Release plan)
-

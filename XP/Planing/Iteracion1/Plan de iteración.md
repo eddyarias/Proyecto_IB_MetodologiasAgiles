@@ -1,11 +1,13 @@
 # Plan de Iteración
-**Duración**: 2 Dias
+
+**Duración**: 2 Días
 
 ## Iteración 1
-**Duración:** Primer Día  
+**Duración:** Primer y Segundo Día  
 ### Objetivos de la Iteración
 - Implementar las funcionalidades básicas como registrar cuenta, consultar usuarios, seguir usuarios y cierre de sesión.
 - Configurar el entorno de desarrollo y las herramientas necesarias.
+
 > **Fecha de Inicio:** 08/06/2024  
 > **Fecha de Fin:** 09/06/2024  
 
@@ -18,14 +20,13 @@
 | Pruebas funcionales                          | ![Completado](https://img.shields.io/badge/estado-completado-green)  |Ismael Toala - Tester y Kevin Asimbaya - Cliente |Eddy Arias - Tracker |
 |Plan de lanzamiento/liberación (Release plan) |![Completado](https://img.shields.io/badge/estado-completado-green)|Erika Anrrango - Coach |Eddy Arias - Tracker |
 | Seguimiento de la fase planificación |![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
-| Definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)   | Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
-
 
 ### Designing
 | **Actividad**                                | **Estado**    |**Realizado por:**|**Revisado por:**| 
 |----------------------------------------------|---------------|---------------|-----------------|
 | Diagrama de clases UML                       | ![Completado](https://img.shields.io/badge/estado-completado-green)  |  Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Elaboración de tarjetas CRC                  | ![Completado](https://img.shields.io/badge/estado-completado-green)  | Edwin Cantuña y Santiago Bejarano - Programadores |Eddy Arias -Tracker |
+| Definición de la metáfora del sistema        | ![Completado](https://img.shields.io/badge/estado-completado-green)   | Edwin Cantuña y Santiago Bejarano - Programadores | Eddy Arias -Tracker |
 | Refactorización                 | ![Completado](https://img.shields.io/badge/estado-completado-green)  | Edwin Cantuña y Santiago Bejarano - Programadores |Eddy Arias -Tracker |
 | Seguimiento de la fase diseño |![Completado](https://img.shields.io/badge/estado-completado-green)|Eddy Arias - Tracker |Eddy Arias - Tracker |
 
