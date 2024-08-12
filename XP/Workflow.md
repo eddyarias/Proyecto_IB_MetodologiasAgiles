@@ -26,10 +26,6 @@
 ![image](https://github.com/user-attachments/assets/50c01f43-f0c8-4d43-8185-d2944fac235c)
 
 
-### Historia de Usuario 3: Diseño de Interfaz de Usuario
-- **ID**: SP1-003
-- **Descripción**: Como desarrollador, necesito diseñar la interfaz de usuario para el perfil y la subida de fotos para que la aplicación sea intuitiva y fácil de usar.
-- 
 ## Daily Standup (Diario)
 - **Frecuencia**: Diario (de lunes a viernes)
 - **Hora**: 09:00 AM
