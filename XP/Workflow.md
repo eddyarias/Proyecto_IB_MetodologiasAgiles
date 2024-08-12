@@ -15,7 +15,7 @@
 # Sprint 1: Implementación de Funcionalidades Básicas
 
 ## Sprint Planning
-- **Fecha**: [11/08/2024]
+- **Fecha**: [10/08/2024]
 - **Objetivo**: Desarrollar las funcionalidades básicas para el perfil de usuario y la subida de fotos.
 
 ## Sprint Backlog
