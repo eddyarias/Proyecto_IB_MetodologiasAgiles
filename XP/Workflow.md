@@ -17,6 +17,7 @@
 ## Sprint Planning
 - **Fecha**: [10/08/2024]
 - **Objetivo**: Desarrollar las funcionalidades básicas para el perfil de usuario y la subida de fotos.
+- **Duración**: 1 hora.
 
 ## Sprint Backlog
 
@@ -49,6 +50,7 @@
 - **Fecha**: [19/08/2024]
 - **Objetivo**: Presentar las funcionalidades desarrolladas: perfil de usuario y subida de fotos.
 - **Participantes**: Equipo de desarrollo, Product Owner, y otros stakeholders.
+- **Duración**: 1hora.
 - **Contenido**:
   1. Demostración de la funcionalidad del perfil de usuario.
   2. Demostración de la funcionalidad de subida de fotos.
@@ -58,6 +60,7 @@
 - **Fecha**: [Fecha posterior a la Sprint Review]
 - **Objetivo**: Evaluar el proceso del sprint y planificar mejoras.
 - **Temas a tratar**:
+- **Duración**: 30min.
   1. ¿Qué salió bien durante el sprint?
   2. ¿Qué desafíos enfrentamos y cómo los superamos?
   3. ¿Qué podemos mejorar para el próximo sprint?
@@ -97,6 +100,7 @@
 - **Fecha**: [Fecha de finalización del Sprint 2]
 - **Objetivo**: Presentar las nuevas funcionalidades: gestión de seguidores y visualización del feed.
 - **Participantes**: Equipo de desarrollo, Product Owner, y otros stakeholders.
+- **Duración**: 30min.
 - **Contenido**:
   1. Demostración de la gestión de seguidores.
   2. Demostración del feed de fotos.
@@ -105,6 +109,7 @@
 ## Sprint Retrospective
 - **Fecha**: [Fecha posterior a la Sprint Review]
 - **Objetivo**: Evaluar el proceso del sprint y planificar mejoras.
+- **Duración**: 15min.
 - **Temas a tratar**:
   1. ¿Qué salió bien durante el sprint?
   2. ¿Qué desafíos enfrentamos y cómo los superamos?
