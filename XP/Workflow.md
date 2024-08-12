@@ -72,21 +72,21 @@
 
 ### Historia de Usuario 1: Gestión de Seguidores
 - **ID**: SP2-001
-- **Descripción**: Como usuario, quiero seguir y dejar de seguir a otros usuarios para poder ver sus publicaciones en mi feed.
+
 
 
 ### Historia de Usuario 2: Visualización de Feed
 - **ID**: SP2-002
-- **Descripción**: Como usuario, quiero ver un feed con las fotos de los usuarios que sigo para estar al tanto de sus publicaciones.
+
 
 
 ### Historia de Usuario 3: Notificaciones
 - **ID**: SP2-003
-- **Descripción**: Como usuario, quiero recibir notificaciones cuando alguien siga mi perfil o comente en una foto para estar informado sobre la actividad en mi cuenta.
+
 
 
 ## Daily Standup (Diario)
-- **Frecuencia**: Diario (de Sabado, Domingo)
+- **Frecuencia**: Diario (Sabado, Domingo)
 - **Hora**: 09:00 AM
 - **Temas a tratar**:
   1. ¿Qué hice ayer?
