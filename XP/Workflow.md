@@ -1,15 +1,18 @@
 #  Workflow
 ## Asignación de Roles 
 
+## Asignación de Roles 
+
 | Rol          | Persona             |
 |--------------|---------------------|
-| Cliente      | Kevin Asimbaya      |
-| Programador  | Santiago Bejarano   |
-| Programador  | Edwin Cantuña       |
-| Coach        | Erika Anrrango      |
-| Tracker      | Eddy Arias          |
-| Tester       | Ismael Toala        |
-| Gestor       | Esteban Bajaña      |
+| Scrum master | Esteban Bajaña      |
+| Product Owner| Kevin Asimbaya      |
+| Scrum team   | Santiago Bejarano   |
+| Scrum team   | Edwin Cantuña       |
+| Scrum team   | Erika Anrrango      |
+| Scrum team   | Eddy Arias          |
+| Scrum team   | Ismael Toala        |
+
 
 ## Cronograma de trabajo
 # Sprint 1: Implementación de Funcionalidades Básicas
